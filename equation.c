@@ -10,13 +10,13 @@ int main()
 	{
 		x1=(-b + sqrt(d))/(2*a);
 		x2=(-b - sqrt(d))/(2*a);
-		printf("%f", x1);
-		printf("%f", x2);
+		printf("%f \n", x1);
+		printf("%f \n", x2);
 	}
 	else if (d == 0.0)
 	{
 		x1 = (-b)/(2*a);
-		printf("%f", x1);
+		printf("%f \n", x1);
 	}
 	else
 	{
